@@ -29,10 +29,10 @@
 </head>
 
 <body class="font-lato">
-    <header>
-        <div class="navbar bg-base-100">
+    <header class="container mx-auto my-6 bg-primary-orange text-white rounded-[600px]">
+        <div class="navbar">
             <div class="navbar-start hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="menu menu-horizontal">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Shop</a></li>
@@ -44,10 +44,10 @@
                 <h3 class="font-extrabold text-4xl px-2">Fruit Burst</h3>
             </div>
             <div class="navbar-end flex-grow">
-                <div class="form-control">
-                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                <div class="form-control hidden lg:inline">
+                    <input type="text" placeholder="Search Here" class="input input-bordered text-black mr-6 w-[300px] rounded-[600px]" />
                 </div>
-                <div class="dropdown">
+                <div class="dropdown dropdown-end">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -56,7 +56,7 @@
                         </svg>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-primary-orange rounded-box w-52">
                         <li><a href="">Home</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Shop</a></li>
